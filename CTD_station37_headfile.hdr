@@ -1,0 +1,235 @@
+* Sea-Bird SBE 9 Data File:
+* FileName = C:\Meteor110\GeoB18937-1.hex
+* Software Version Seasave V 7.21f
+* Temperature SN = 4479
+* Conductivity SN = 3141
+* Number of Bytes Per Scan = 24
+* Number of Voltage Words = 4
+* Number of Scans Averaged by the Deck Unit = 1
+* System UpLoad Time = Sep 26 2014 18:34:14
+* SBE 11plus V 5.2
+* number of scans to average = 1
+* pressure baud rate = 9600
+* NMEA baud rate = 4800
+* GPIB address = 1
+* advance primary conductivity  0.073 seconds
+* advance secondary conductivity  0.073 seconds
+* delete word 3 from scan
+* delete word 4 from scan
+* autorun on power up is disabled
+* S>
+** Ship: Meteor
+** Station: GeoB18937-1
+** Latitude 42° 4.385`N
+** Longitude 9° 3.937`W
+* System UTC = Sep 26 2014 18:34:14
+# nquan = 14
+# nvalues = 477                         
+# units = specified
+# name 0 = prDM: Pressure, Digiquartz [db]
+# name 1 = t090C: Temperature [ITS-90, deg C]
+# name 2 = c0uS/cm: Conductivity [uS/cm]
+# name 3 = depSM: Depth [salt water, m], lat = 41.00
+# name 4 = sbeox0Mg/L: Oxygen, SBE 43 [mg/l]
+# name 5 = sbeox0PS: Oxygen, SBE 43 [% saturation]
+# name 6 = altM: Altimeter [m]
+# name 7 = flECO-AFL: Fluorescence, WET Labs ECO-AFL/FL [mg/m^3]
+# name 8 = upoly0: Upoly 0, Trübungssensor NTURTD-138
+# name 9 = nbin: number of scans per bin
+# name 10 = sal00: Salinity, Practical [PSU]
+# name 11 = density00: Density [density, Kg/m^3]
+# name 12 = svCM: Sound Velocity [Chen-Millero, m/s]
+# name 13 = flag: flag
+# span 0 =      1.512,    121.477       
+# span 1 =    12.7944,    20.9988       
+# span 2 = 4.1584e+04, 4.9284e+04       
+# span 3 =      1.500,    120.500       
+# span 4 =    5.79294,    7.99782       
+# span 5 =   68.73755,  105.16353       
+# span 6 =       7.94,     108.66       
+# span 7 =    -0.0668,     1.0442       
+# span 8 =  0.6440892,  1.2107150       
+# span 9 =         14,       1235       
+# span 10 =    35.2258,    35.7735      
+# span 11 =  1024.6864,  1027.5445      
+# span 12 =    1502.26,    1524.56      
+# span 13 = 0.0000e+00, 0.0000e+00      
+# interval = meters: 0.5                
+# start_time = Sep 26 2014 18:34:14 [System UTC, header]
+# bad_flag = -9.990e-29
+# <Sensors count="11" >
+#   <sensor Channel="1" >
+#     <!-- Frequency 0, Temperature -->
+#     <TemperatureSensor SensorID="55" >
+#       <SerialNumber>4479</SerialNumber>
+#       <CalibrationDate>23-Aug-11 </CalibrationDate>
+#       <UseG_J>1</UseG_J>
+#       <A>0.00000000e+000</A>
+#       <B>0.00000000e+000</B>
+#       <C>0.00000000e+000</C>
+#       <D>0.00000000e+000</D>
+#       <F0_Old>0.000</F0_Old>
+#       <G>4.34468155e-003</G>
+#       <H>6.37792647e-004</H>
+#       <I>2.09412144e-005</I>
+#       <J>1.74974158e-006</J>
+#       <F0>1000.000</F0>
+#       <Slope>1.00000000</Slope>
+#       <Offset>0.0000</Offset>
+#     </TemperatureSensor>
+#   </sensor>
+#   <sensor Channel="2" >
+#     <!-- Frequency 1, Conductivity -->
+#     <ConductivitySensor SensorID="3" >
+#       <SerialNumber>3141</SerialNumber>
+#       <CalibrationDate>05-Aug-11 </CalibrationDate>
+#       <UseG_J>1</UseG_J>
+#       <!-- Cell const and series R are applicable only for wide range sensors. -->
+#       <SeriesR>0.0000</SeriesR>
+#       <CellConst>2000.0000</CellConst>
+#       <ConductivityType>0</ConductivityType>
+#       <Coefficients equation="0" >
+#         <A>0.00000000e+000</A>
+#         <B>0.00000000e+000</B>
+#         <C>0.00000000e+000</C>
+#         <D>0.00000000e+000</D>
+#         <M>0.0</M>
+#         <CPcor>-9.57000000e-008</CPcor>
+#       </Coefficients>
+#       <Coefficients equation="1" >
+#         <G>-1.03807268e+001</G>
+#         <H>1.44233596e+000</H>
+#         <I>-5.73476260e-004</I>
+#         <J>1.13067354e-004</J>
+#         <CPcor>-9.57000000e-008</CPcor>
+#         <CTcor>3.2500e-006</CTcor>
+#         <!-- WBOTC not applicable unless ConductivityType = 1. -->
+#         <WBOTC>0.00000000e+000</WBOTC>
+#       </Coefficients>
+#       <Slope>1.00000000</Slope>
+#       <Offset>0.00000</Offset>
+#     </ConductivitySensor>
+#   </sensor>
+#   <sensor Channel="3" >
+#     <!-- Frequency 2, Pressure, Digiquartz with TC -->
+#     <PressureSensor SensorID="45" >
+#       <SerialNumber>0791</SerialNumber>
+#       <CalibrationDate>06-Oct-11</CalibrationDate>
+#       <C1>-4.866034e+004</C1>
+#       <C2>-1.927183e-001</C2>
+#       <C3>1.382000e-002</C3>
+#       <D1>3.841000e-002</D1>
+#       <D2>0.000000e+000</D2>
+#       <T1>2.998900e+001</T1>
+#       <T2>-3.444249e-004</T2>
+#       <T3>3.861200e-006</T3>
+#       <T4>2.456970e-009</T4>
+#       <Slope>0.99995309</Slope>
+#       <Offset>-0.08598</Offset>
+#       <T5>0.000000e+000</T5>
+#       <AD590M>1.282400e-002</AD590M>
+#       <AD590B>-9.019710e+000</AD590B>
+#     </PressureSensor>
+#   </sensor>
+#   <sensor Channel="4" >
+#     <!-- A/D voltage 0, Altimeter -->
+#     <AltimeterSensor SensorID="0" >
+#       <SerialNumber>1218</SerialNumber>
+#       <CalibrationDate></CalibrationDate>
+#       <ScaleFactor>15.000</ScaleFactor>
+#       <Offset>0.000</Offset>
+#     </AltimeterSensor>
+#   </sensor>
+#   <sensor Channel="5" >
+#     <!-- A/D voltage 1, Free -->
+#   </sensor>
+#   <sensor Channel="6" >
+#     <!-- A/D voltage 2, Fluorometer, WET Labs ECO-AFL/FL -->
+#     <FluoroWetlabECO_AFL_FL_Sensor SensorID="20" >
+#       <SerialNumber>FLRTD-572</SerialNumber>
+#       <CalibrationDate>09/08/2011</CalibrationDate>
+#       <ScaleFactor>1.30000000e+001</ScaleFactor>
+#       <!-- Dark output -->
+#       <Vblank>0.0290</Vblank>
+#     </FluoroWetlabECO_AFL_FL_Sensor>
+#   </sensor>
+#   <sensor Channel="7" >
+#     <!-- A/D voltage 3, Free -->
+#   </sensor>
+#   <sensor Channel="8" >
+#     <!-- A/D voltage 4, Oxygen, SBE 43 -->
+#     <OxygenSensor SensorID="38" >
+#       <SerialNumber>1100</SerialNumber>
+#       <CalibrationDate>03-Sep-11p</CalibrationDate>
+#       <Use2007Equation>1</Use2007Equation>
+#       <CalibrationCoefficients equation="0" >
+#         <!-- Coefficients for Owens-Millard equation. -->
+#         <Boc>0.0000</Boc>
+#         <Soc>0.0000e+000</Soc>
+#         <offset>0.0000</offset>
+#         <Pcor>0.00e+000</Pcor>
+#         <Tcor>0.0000</Tcor>
+#         <Tau>0.0</Tau>
+#       </CalibrationCoefficients>
+#       <CalibrationCoefficients equation="1" >
+#         <!-- Coefficients for Sea-Bird equation - SBE calibration in 2007 and later. -->
+#         <Soc>5.3350e-001</Soc>
+#         <offset>-0.5014</offset>
+#         <A>-3.6621e-003</A>
+#         <B> 1.2626e-004</B>
+#         <C>-2.4109e-006</C>
+#         <D0> 2.5826e+000</D0>
+#         <D1> 1.92630e-004</D1>
+#         <D2>-4.64800e-002</D2>
+#         <E> 3.6000e-002</E>
+#         <Tau20> 1.9600</Tau20>
+#         <H1>-3.3000e-002</H1>
+#         <H2> 5.0000e+003</H2>
+#         <H3> 1.4500e+003</H3>
+#       </CalibrationCoefficients>
+#     </OxygenSensor>
+#   </sensor>
+#   <sensor Channel="9" >
+#     <!-- A/D voltage 5, Free -->
+#   </sensor>
+#   <sensor Channel="10" >
+#     <!-- A/D voltage 6, User Polynomial -->
+#     <UserPolynomialSensor SensorID="61" >
+#       <SerialNumber>138</SerialNumber>
+#       <CalibrationDate>09.13.2011</CalibrationDate>
+#       <SensorName>Trübungssensor NTURTD-138</SensorName>
+#       <A0>0.40000000</A0>
+#       <A1>25.00000000</A1>
+#       <A2>0.00000000</A2>
+#       <A3>0.00000000</A3>
+#     </UserPolynomialSensor>
+#   </sensor>
+#   <sensor Channel="11" >
+#     <!-- A/D voltage 7, Free -->
+#   </sensor>
+# </Sensors>
+# datcnv_date = Sep 26 2014 22:54:55, 7.22.4 [datcnv_vars = 9]
+# datcnv_in = C:\Local Home\EcProjects\SmallCTDproc\output\geob18937-1.hex C:\Local Home\EcProjects\SmallCTDproc\raw\4479_0811.CON
+# datcnv_skipover = 0
+# datcnv_ox_hysteresis_correction = yes
+# datcnv_ox_tau_correction = yes
+# filter_date = Sep 26 2014 22:54:56, 7.22.4
+# filter_in = C:\Local Home\EcProjects\SmallCTDproc\output\geob18937-1_x.cnv
+# filter_low_pass_tc_A = 0.150
+# filter_low_pass_tc_B = 1.000
+# filter_low_pass_A_vars = prDM depSM flECO-AFL upoly0
+# filter_low_pass_B_vars =
+# alignctd_date = Sep 26 2014 22:54:56, 7.22.4
+# alignctd_in = C:\Local Home\EcProjects\SmallCTDproc\output\geob18937-1_xf.cnv
+# alignctd_adv = c0uS/cm 0.073, sbeox0Mg/L 3.000, sbeox0PS 3.000                                                                                                                                                                     
+# binavg_date = Sep 26 2014 22:54:57, 7.22.4
+# binavg_in = C:\Local Home\EcProjects\SmallCTDproc\output\geob18937-1_xfa.cnv
+# binavg_bintype = meters
+# binavg_binsize = 0.5
+# binavg_excl_bad_scans = yes
+# binavg_skipover = 0
+# binavg_surface_bin = no, min = 0.000, max = 0.000, value = 0.000
+# Derive_date = Sep 26 2014 22:54:57, 7.22.4 [derive_vars = 3]
+# Derive_in = C:\Local Home\EcProjects\SmallCTDproc\output\geob18937-1_xfab.cnv C:\Local Home\EcProjects\SmallCTDproc\raw\4479_0811.CON
+# file_type = ascii
+*END*
